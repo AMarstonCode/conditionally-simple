@@ -31,15 +31,19 @@ function howLongIsMyString(str) {
   }
 }
 
-function personsHeight(name) {
-  if (name == "Shaq") {
+function personsHeight(str) {
+  if (str == "Shaq") {
     return 85;
   }
-  if (name == "Zooey") {
+
+  if (str == "Zooey") {
     return 65;
   }
+
   return "I don't know everyone's height!";
 }
+
+personsHeight("Alex");
 
 /**********************************
  *      OUR CODE GOES BELOW.      *
